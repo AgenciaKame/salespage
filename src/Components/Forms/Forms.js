@@ -11,19 +11,19 @@ const Forms = () => {
       </div>
       <div className="form">
         <div className="form-group">
-          <label for="name">Full name*</label>
+          <label htmlFor="name">Full name*</label>
           <input type="text" />
         </div>
         <div className="form-group">
-          <label for="email">Email*</label>
+          <label htmlFor="email">Email*</label>
           <input type="email" />
         </div>
         <div className="form-group">
-          <label for="phone">Phone Number</label>
+          <label htmlFor="phone">Phone Number</label>
           <input type="number" />
         </div>
         <div className="form-message">
-          <label for="message">Message</label>
+          <label htmlFor="message">Message</label>
           <input type="textarea" />
         </div>
         <div className="divButton">
