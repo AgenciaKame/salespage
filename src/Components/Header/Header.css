@@ -74,6 +74,12 @@
   height: 6px;
   margin-right: 0.5rem;
 }
+.menu > ul > li.btn-ws {
+  background-color: #f7b633;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+}
 .menu > .btn-menu {
   position: absolute;
   bottom: 50px;

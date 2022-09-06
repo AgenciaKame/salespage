@@ -68,14 +68,20 @@ const Header = () => {
               </li>
               <li>
                 <img src={arrowRed} alt='list-style' />
-                Contacto
+                <Link
+                  onClick={() => setMenuOpened(false)}
+                  to='contact'
+                  span='true'
+                  smooth={true}
+                >
+                  Contacto
+                </Link>
               </li>
-              <li>
+              {/* <li>
                 <img src={arrowRed} alt='list-style' />
-                Blog
-              </li>
-              <li>
-                <img src={arrowRed} alt='list-style' />
+                WhatsApp
+              </li> */}
+              <li className='btn-ws'>
                 WhatsApp
               </li>
             </ul>

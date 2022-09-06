@@ -5,7 +5,7 @@ import BenefitDesktop from './BenefitDesktop'
 
 const Benefits = () => {
 
-  const mobile = window.innerWidth<767 ? true : false
+  const mobile = window.innerWidth<768 ? true : false
 
   return (
     <div className='benefits'>

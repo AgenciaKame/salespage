@@ -1,5 +1,5 @@
-import "../../../node_modules/slick-carousel/slick/slick.css";
-import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+/* import "../../../node_modules/slick-carousel/slick/slick.css";
+import "../../../node_modules/slick-carousel/slick/slick-theme.css"; */
 import "./Problems.css";
 import { pains } from "../../Data/Data";
 import Slider from "react-slick";

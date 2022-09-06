@@ -81,3 +81,20 @@ export const comments = [
     message: 'Microdosing chambray kitsch mustache. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel rerum atque, nemo magni totam necessitatibus.',
   },
 ]
+
+export const offers = [
+  {
+    title: 'Cash',
+    forSale : '10% Discount',
+    discount: '$1900',
+    price: 1710,
+    financial: false,
+  },
+  {
+    title: 'Credit Card',
+    forSale : 'Up to 12 payment of',
+    discount: null,
+    price: 158,
+    financial: true,
+  }
+]

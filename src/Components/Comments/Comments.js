@@ -1,5 +1,5 @@
-import "../../../node_modules/slick-carousel/slick/slick.css";
-import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+/* import "../../../node_modules/slick-carousel/slick/slick.css";
+import "../../../node_modules/slick-carousel/slick/slick-theme.css"; */
 import "./Comments.css";
 import star from "../../Assets/star.png";
 import halfStar from "../../Assets/no-star.png";
