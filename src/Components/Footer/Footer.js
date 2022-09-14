@@ -38,30 +38,30 @@ const Footer = () => {
         <div className="networks">
           <ul>
             <li>
-              <img src={facebook} alt="icon" />
+              <img src={facebook} alt="icon" loading='lazy'/>
             </li>
             <li>
-              <img src={instagram} alt="icon" />
+              <img src={instagram} alt="icon" loading='lazy'/>
             </li>
             <li>
-              <img src={linkedin} alt="icon" />
+              <img src={linkedin} alt="icon" loading='lazy'/>
             </li>
           </ul>
           <div className="networks-grid">
             <div className="main-image">
-              <img src={gridMain} alt="grid" />
+              <img src={gridMain} alt="grid" loading='lazy'/>
             </div>
             <div className="image">
-              <img src={gridOne} alt="grid" />
+              <img src={gridOne} alt="grid" loading='lazy'/>
             </div>
             <div className="image">
-              <img src={gridTwo} alt="grid" />
+              <img src={gridTwo} alt="grid" loading='lazy'/>
             </div>
             <div className="image">
-              <img src={gridThree} alt="grid" />
+              <img src={gridThree} alt="grid" loading='lazy'/>
             </div>
             <div className="image">
-              <img src={gridFour} alt="grid" />
+              <img src={gridFour} alt="grid" loading='lazy'/>
             </div>
           </div>
         </div>

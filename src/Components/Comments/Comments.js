@@ -46,23 +46,23 @@ const Comments = () => {
             return (
               <div className="comment" key={idx}>
                 {mobile === false ? <div className="span"></div> : null}
-                <img src={comment.image} alt={`pic-${idx + 1}`} />
+                <img src={comment.image} alt={`pic-${idx + 1}`} loading='lazy' />
                 <h3>{comment.name}</h3>
                 <p>{comment.message}</p>
                 <div className="ponder">
                   <h4>Calification</h4>
                   <ul>
                     <li>
-                      <img src={star} alt="ponder" />
+                      <img src={star} alt="ponder" loading='lazy'/>
                     </li>
                     <li>
-                      <img src={star} alt="ponder" />
+                      <img src={star} alt="ponder" loading='lazy'/>
                     </li>
                     <li>
-                      <img src={star} alt="ponder" />
+                      <img src={star} alt="ponder" loading='lazy'/>
                     </li>
                     <li>
-                      <img src={star} alt="ponder" />
+                      <img src={star} alt="ponder" loading='lazy'/>
                     </li>
                     <li>
                       <img src={halfStar} alt="ponder" />

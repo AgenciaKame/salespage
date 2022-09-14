@@ -11,19 +11,19 @@ const Services = () => {
   return (
     <div className="services" id="services">
       <div className="services-image">
-        <img src={solutionMain} alt="service-main" />
+        <img src={solutionMain} alt="service-main" loading='lazy'/>
         <div className="top-s">
           {mobile === true ? (
-            <img src={solutionTopMobile} alt="top-service" />
+            <img src={solutionTopMobile} alt="top-service" loading='lazy'/>
           ) : (
-            <img src={solutionTopDesktop} alt="top-service" />
+            <img src={solutionTopDesktop} alt="top-service" loading='lazy'/>
           )}
         </div>
         <div className="bottom-s">
           {mobile === true ? (
-            <img src={solutionBottomMobile} alt="bottom-service" />
+            <img src={solutionBottomMobile} alt="bottom-service" loading='lazy'/>
           ) : (
-            <img src={solutionBottomDesktop} alt="bottom-service" />
+            <img src={solutionBottomDesktop} alt="bottom-service" loading='lazy'/>
           )}
         </div>
       </div>

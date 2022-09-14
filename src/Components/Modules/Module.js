@@ -19,11 +19,11 @@ const Module = ({title , imageMobile, imageDesktop}) => {
         </p>
         <ul>
           <li>
-            <img src={listStyle} alt="list-syle" />
+            <img src={listStyle} alt="list-syle" loading='lazy'/>
             <span> High Quality Videos Details</span>
           </li>
           <li>
-            <img src={listStyle} alt="list-syle" />
+            <img src={listStyle} alt="list-syle" loading='lazy'/>
             <span> High Quality Videos Details</span>
           </li>
         </ul>
@@ -32,9 +32,9 @@ const Module = ({title , imageMobile, imageDesktop}) => {
       <div className="module-image">
         {
           mobile === true ? (
-            <img src={imageMobile} alt="module" />
+            <img src={imageMobile} alt="module" loading='lazy'/>
           ) : (
-            <img src={imageDesktop} alt="module" />
+            <img src={imageDesktop} alt="module" loading='lazy'/>
           )
         }
         {
