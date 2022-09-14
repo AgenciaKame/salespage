@@ -4,38 +4,51 @@ import error from "../../Assets/foda-error.png";
 import fodaMobile from "../../Assets/foda-bg.png";
 import fodaDesktop from "../../Assets/foda-bg-lg.png";
 
-const FodaCard = ({title, image, mobile}) => {
+const FodaCard = ({ title, image, mobile }) => {
   return (
     <>
-      {
-        mobile === true ? (
-          <h2>{title}</h2>
-        ) : null
-      }
+      {mobile === true ? <h2>{title}</h2> : null}
       <div className="card-info">
-        {
-          mobile === false ? (
-            <h2>{title}</h2>
-          ) : null
-        }
+        {mobile === false ? <h2>{title}</h2> : null}
         <ul>
           <li>
             <div>
               <img src={image} alt="list-style" />
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            {mobile === true ? (
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            ) : (
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                expedita iste aperiam quis!
+              </p>
+            )}
           </li>
           <li>
             <div>
               <img src={image} alt="list-style" />
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            {mobile === true ? (
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            ) : (
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                expedita iste aperiam quis!
+              </p>
+            )}
           </li>
           <li>
             <div>
               <img src={image} alt="list-style" />
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            {mobile === true ? (
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            ) : (
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                expedita iste aperiam quis!
+              </p>
+            )}
           </li>
         </ul>
       </div>
@@ -54,8 +67,12 @@ const Foda = () => {
         <img src={fodaDesktop} alt="bg" />
       )}
       <div className="foda-card">
-        <FodaCard title='This is for you if...' image={check} mobile={mobile}/>
-        <FodaCard title='This is not for you if...' image={error} mobile={mobile}/>
+        <FodaCard title="This is for you if..." image={check} mobile={mobile} />
+        <FodaCard
+          title="This is not for you if..."
+          image={error}
+          mobile={mobile}
+        />
       </div>
     </div>
   );
