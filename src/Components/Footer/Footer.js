@@ -1,13 +1,14 @@
 import "./Footer.css";
-import instagram from '../../Assets/footer-instagram.png'
-import facebook from '../../Assets/footer-facebook.png'
-import linkedin from '../../Assets/footer-linkedin.png'
-import gridMain from '../../Assets/image-net-main.png'
-import gridOne from '../../Assets/image-net-one.png'
-import gridTwo from '../../Assets/image-net-two.png'
-import gridThree from '../../Assets/image-net-three.png'
-import gridFour from '../../Assets/image-net-four.png'
-import {Link} from 'react-scroll'
+import instagram from "../../Assets/footer-instagram.png";
+import facebook from "../../Assets/footer-facebook.png";
+import linkedin from "../../Assets/footer-linkedin.png";
+import gridMain from "../../Assets/image-net-main.png";
+import gridOne from "../../Assets/image-net-one.png";
+import gridTwo from "../../Assets/image-net-two.png";
+import gridThree from "../../Assets/image-net-three.png";
+import gridFour from "../../Assets/image-net-four.png";
+import kame from "../../Assets/8.png";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -16,30 +17,17 @@ const Footer = () => {
         <h2>Logotipo</h2>
         <ul>
           <li>
-            <Link
-              activeClass='active'
-              to='brand'
-              span='true'
-              smooth={true}
-            >
+            <Link activeClass="active" to="brand" span="true" smooth={true}>
               About
             </Link>
           </li>
           <li>
-            <Link
-              to='services'
-              span='true'
-              smooth={true}
-            >
+            <Link to="services" span="true" smooth={true}>
               Services
             </Link>
           </li>
           <li>
-            <Link
-              to='contact'
-              span='true'
-              smooth={true}
-            >
+            <Link to="contact" span="true" smooth={true}>
               Contact
             </Link>
           </li>
@@ -77,6 +65,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="designed">
+        ©2022 - Diseñado por Agencia Kame
+        <img src={kame} alt="kame" />
       </div>
     </div>
   );

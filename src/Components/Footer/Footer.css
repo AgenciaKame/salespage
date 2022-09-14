@@ -58,7 +58,28 @@
 .footer-right > div > .networks-grid {
   display: none;
 }
-
+.designed {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.designed > img {
+  width: 20px;
+  object-fit: cover;
+  margin-left: 5px;
+}
 @media screen and (min-width: 768px) {
   .footer {
     margin-top: 120px;
@@ -115,6 +136,12 @@
     width: 100%;
     height: 100%;
   }
+  .designed {
+    justify-content: right;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
   @media screen and (min-width: 1024px) {
     .footer {
       margin-top: 120px;
@@ -127,6 +154,10 @@
     .footer-left > h2 {
       font-size: 36px;
       line-height: 36px;
+    }
+    .footer-left > ul {
+      height: 140px;
+      justify-content: space-between;
     }
     .footer-left > ul > li {
       font-size: 16px;
@@ -159,6 +190,16 @@
     .footer-right > div > .networks-grid > .image {
       width: 88px;
       height: 86px;
+    }
+    .designed {
+      width: 90%;
+      bottom: 50px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .designed > img {
+      width: 25px;
+      margin-left: 10px;
     }
   }
 }

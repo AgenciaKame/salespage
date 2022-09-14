@@ -79,6 +79,8 @@
   padding: 10px 15px;
   border-radius: 15px;
   font-weight: bold;
+  display: block;
+  text-align: center;
 }
 .menu > .btn-menu {
   position: absolute;

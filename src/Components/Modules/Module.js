@@ -27,7 +27,7 @@ const Module = ({title , imageMobile, imageDesktop}) => {
             <span> High Quality Videos Details</span>
           </li>
         </ul>
-        <button className="btn btn-module">VIEW MODULE!</button>
+        {/* <button className="btn btn-module">VIEW MODULE!</button> */}
       </div>
       <div className="module-image">
         {

@@ -5,6 +5,7 @@ import fodaMobile from "../../Assets/foda-bg.png";
 import fodaDesktop from "../../Assets/foda-bg-lg.png";
 
 const FodaCard = ({ title, image, mobile }) => {
+  const mobile2 = window.innerWidth < 1024 ? true : false
   return (
     <>
       {mobile === true ? <h2>{title}</h2> : null}
@@ -15,7 +16,7 @@ const FodaCard = ({ title, image, mobile }) => {
             <div>
               <img src={image} alt="list-style" />
             </div>
-            {mobile === true ? (
+            {mobile2 === true ? (
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             ) : (
               <p>
@@ -28,7 +29,7 @@ const FodaCard = ({ title, image, mobile }) => {
             <div>
               <img src={image} alt="list-style" />
             </div>
-            {mobile === true ? (
+            {mobile2 === true ? (
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             ) : (
               <p>
@@ -41,7 +42,7 @@ const FodaCard = ({ title, image, mobile }) => {
             <div>
               <img src={image} alt="list-style" />
             </div>
-            {mobile === true ? (
+            {mobile2 === true ? (
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             ) : (
               <p>

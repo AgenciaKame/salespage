@@ -172,15 +172,21 @@
   div.offers > div.offer-slider {
     width: 80%;
   }
+  div.offers > div.offer-slider > .offers-desktop {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
   .offer-0 {
-    max-width: 384px;
+    padding: 20px 0;
+    max-width: 360px;
     border-radius: 18px;
     user-select: none;
   }
   .offer-1 {
+    padding: 20px 0;
     max-width: 360px;
     border-radius: 18px;
     user-select: none;
-    margin: 0 auto;
   }
 }
