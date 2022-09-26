@@ -37,7 +37,7 @@ const Services = () => {
           suscipit ipsam sequi ab deleniti, quasi nobis quas totam dolore,
           itaque sunt facere rem atque enim a illo!
         </p>
-        <button className="btn btn-services">Enroll now</button>
+        <button className="btn btn-services">Lo quiero</button>
       </div>
     </div>
   );

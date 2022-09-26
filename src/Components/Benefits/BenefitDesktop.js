@@ -12,7 +12,7 @@ const BenefitDesktop = ({ benefits }) => {
           exit={{opacity: 0, y: 100}}
           transition={{ type: 'spring', duration: 3}}
         >
-          Here's what we can do together
+          Esto es lo que podemos hacer juntos
         </motion.h2>
       </div>
       {benefits.map((benefit, idx) => {

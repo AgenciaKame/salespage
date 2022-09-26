@@ -11,17 +11,17 @@ import comments5 from '../Assets/comments-4.jpg'
 export const pains = [
   {
     image: pain1,
-    title: "First Pain Point Goes Here",
+    title: "Primer punto de dolor de tu cliente",
     text: "Im baby portland put a bird on it blog letterpress bitters yuccie.",
   },
   {
     image: pain2,
-    title: "Second Pain Point Goes Here",
+    title: "Segundo punto de dolor de tu cliente",
     text: "Im baby portland put a bird on it blog letterpress bitters yuccie.",
   },
   {
     image: pain3,
-    title: "Third Pain Point Goes Here",
+    title: "Tercer punto de dolor de tu cliente",
     text: "Im baby portland put a bird on it blog letterpress bitters yuccie.",
   },
 ]

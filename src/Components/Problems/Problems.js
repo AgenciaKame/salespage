@@ -37,7 +37,7 @@ const Problems = () => {
   
   return (
     <div className="problems">
-      <h3>¿Cómo te puedo ayudar?</h3>
+      <h3>¿Te identificas con esto?</h3>
       <h4>TELL ME I'M WRONG AND YOU AREN'T FEELING</h4>
       <div className="pains">
         <Slider {...settings}>

@@ -27,7 +27,7 @@ const Home = () => {
             Now all set. We can present all frame that we already create by
             click play button on the top right corner.
           </p>
-          <button className="btn btn-home">Sign me up!</button>
+          {/* <button className="btn btn-home">Sign me up!</button> */}
         </div>
         <div className="info-image">
           {mobile === true ? (

@@ -1,17 +1,17 @@
 import "./Modules.css";
 import listStyle from '../../Assets/list-style-modules.png'
 
-const Module = ({title , imageMobile, imageDesktop}) => {
+const Module = ({ span, title , imageMobile, imageDesktop}) => {
   const mobile = window.innerWidth<768 ? true : false
   return (
     <div className="module">
       <div className="module-text">
         {
           mobile === false ? (
-            <span>{title}</span>
+            <span>{span}</span>
           ) : null
         }
-        <h3>Module title goes here</h3>
+        <h3>{title}</h3>
         <p>
           Microdosing chambray kitsch mustache. Lorem ipsum dolor sit amet
           consectetur, adipisicing elit. Vel rerum atque, nemo magni totam
@@ -40,7 +40,7 @@ const Module = ({title , imageMobile, imageDesktop}) => {
         {
           mobile === true ? (
             <div>
-              <h2>{title}</h2>
+              <h2>{span}</h2>
             </div>
           ) : null
         }

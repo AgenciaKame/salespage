@@ -68,9 +68,9 @@ const Foda = () => {
         <img src={fodaDesktop} alt="bg" />
       )}
       <div className="foda-card">
-        <FodaCard title="This is for you if..." image={check} mobile={mobile} />
+        <FodaCard title="Esto es para ti si..." image={check} mobile={mobile} />
         <FodaCard
-          title="This is not for you if..."
+          title="Esto no es para ti si..."
           image={error}
           mobile={mobile}
         />

@@ -19,7 +19,7 @@ const BenefitMobile = ({benefits}) => {
   return (
     <>
       <div className="benefit-title">
-        <h2>Here's what we can do together</h2>
+        <h2>Esto es lo que podemos hacer juntos</h2>
       </div>
       <Slider {...settings}>
         {
