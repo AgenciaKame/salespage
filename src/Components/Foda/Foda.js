@@ -1,6 +1,6 @@
 import "./Foda.css";
-import check from "../../Assets/foda-check.png";
-import error from "../../Assets/foda-error.png";
+import check from "../../Assets/check.svg";
+import error from "../../Assets/times.svg";
 import fodaMobile from "../../Assets/foda-bg.png";
 import fodaDesktop from "../../Assets/foda-bg-lg.png";
 

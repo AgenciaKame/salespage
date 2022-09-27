@@ -44,13 +44,10 @@
 }
 .card-info > ul > li {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .card-info > ul > li > div {
-  margin: 0 9px;
   width: 27px;
-  min-width: 27px;
   height: 27px;
   border-radius: 50%;
   background: #f2f2f2;
@@ -59,19 +56,22 @@
   align-items: center;
 }
 .card-info > ul > li > div > img {
-  width: 6px;
-  height: 4px;
+  width: 15px;
+  height: 15px;
   object-fit: cover;
 }
 .card-info > ul > li > p {
+  width: 80%;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   color: #000000;
+  margin-left: 12px;
 }
 @media screen and (min-width: 768px) {
   .foda {
@@ -100,10 +100,6 @@
     width: 48px;
     height: 48px;
   }
-  .card-info > ul > div > img {
-    width: 10px;
-    height: 7px;
-  }
 }
 @media screen and (min-width: 1024px) {
   .foda {
@@ -128,8 +124,15 @@
   .card-info > ul > li {
     max-width: 450px;
   }
+  .card-info > ul > li > p {
+    margin-left: 15px;
+  }
   .card-info > ul > li > div {
     width: 48px;
     height: 48px;
+  }
+  .card-info > ul > li > div > img {
+    width: 20px;
+    height: 20px;
   }
 }
