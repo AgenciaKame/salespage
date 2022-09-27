@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/salespage/static/css/main.dd92ecb7.css",
-    "main.js": "/salespage/static/js/main.73fe41aa.js",
+    "main.css": "/salespage/static/css/main.4f3fa708.css",
+    "main.js": "/salespage/static/js/main.99d02fda.js",
     "static/media/foda-bg-lg.png": "/salespage/static/media/foda-bg-lg.64d8f31dd02f76be6547.png",
     "static/media/foda-bg.png": "/salespage/static/media/foda-bg.71345fabe3b72b127f0b.png",
     "static/media/image-brand-lg.png": "/salespage/static/media/image-brand-lg.40338d5098296a9dbd4a.png",
@@ -31,11 +31,13 @@
     "static/media/slick.ttf": "/salespage/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/salespage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/salespage/index.html",
-    "main.dd92ecb7.css.map": "/salespage/static/css/main.dd92ecb7.css.map",
-    "main.73fe41aa.js.map": "/salespage/static/js/main.73fe41aa.js.map"
+    "static/media/times.svg": "/salespage/static/media/times.d65ee786587946dc3b2daafd282c9f2e.svg",
+    "static/media/check.svg": "/salespage/static/media/check.98c67f53b7755fed991623131a1ed77c.svg",
+    "main.4f3fa708.css.map": "/salespage/static/css/main.4f3fa708.css.map",
+    "main.99d02fda.js.map": "/salespage/static/js/main.99d02fda.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd92ecb7.css",
-    "static/js/main.73fe41aa.js"
+    "static/css/main.4f3fa708.css",
+    "static/js/main.99d02fda.js"
   ]
 }
